@@ -1,5 +1,5 @@
 # Print a greeting message to the user.
-print("Welcome to the OA restaurant tip calculator.")
+print("Welcome to omazz218 restaurant tip calculator.")
 
 # Prompt the user to enter the total bill amount.
 bill = float(input("What is the total bill? $"))
