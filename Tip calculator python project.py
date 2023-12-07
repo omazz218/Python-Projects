@@ -17,6 +17,9 @@ total_tip_amount = bill * tip_as_percent
 # Calculate the grand total.
 total_bill = bill + total_tip_amount
 
+# Print new line.
+print("-" * 30)
+
 # Calculate the amount each person should pay.
 bill_per_person = total_bill / people
 print(f"Each person should pay: ${round(bill_per_person, 2):.2f}")
